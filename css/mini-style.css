@@ -8,14 +8,23 @@
 .landing-text {
   font-size: 2.5rem;
 }
-.about-content li,
+.about-content li {
+  list-style: none !important;
+  padding: 10px !important;
+  border: 1px solid #737272;
+  border-radius: 5px;
+  margin: 10px 0px;
+  box-shadow: 0px 2px 14px 1px rgba(108, 98, 255, 0.65);
+  -webkit-box-shadow: 0px 2px 14px 1px rgba(108, 98, 255, 0.65);
+  -moz-box-shadow: 0px 2px 14px 1px rgba(108, 98, 255, 0.65);
+}
 .footer-area li {
   list-style: disc !important;
   padding: 5px !important;
 }
 
 .profile-pic {
-  width: 70vh;
+  width: 100%;
   border-radius: 30px;
 }
 
