@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "MadeSans";
+  src: url("../fonts/madeoutsans.woff");
+}
+.new-font {
+  font-family: "MadeSans", sans-serif;
+}
+.landing-text {
+  font-size: 2.5rem;
+}
+.about-content li,
+.footer-area li {
+  list-style: disc !important;
+  padding: 5px !important;
+}
+
+.profile-pic {
+  width: 70vh;
+  border-radius: 30px;
+}
+
+.instafeed a {
+  padding: 10px;
+  font-size: 20px;
+  color: #fff !important;
+}
+
+.slight-text {
+  font-size: 18px;
+}
+
+.mini-map {
+  height: 40vh !important;
+  width: 100% !important;
+}
